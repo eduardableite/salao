@@ -1,11 +1,43 @@
 body {
-    background: #cccccc;
+    margin: 0;
 }
 
-p {
+h1,
+h2 {
+    text-align: center;
+}
+
+.principal {
+    background-color: #cccccc;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.principal p {
     text-align: center;
 }
 
 em strong {
     color: red;
+}
+
+#banner {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#missao {
+    font-size: 20px;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15%;
+}
+
+.imagembenefecios {
+    width: 50%;
+    float: right;
 }
