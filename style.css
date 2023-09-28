@@ -45,7 +45,8 @@ ul {
 header{
      background-color: black; 
      display: flex;
-     flex-direction: row;
+     flex-direction: row
+     display: inline;;
 }
 .logo {
   height: 150px;
