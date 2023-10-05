@@ -42,14 +42,15 @@ ul {
     float: right;
 }
 
-header{
-     background-color: black; 
-     display: flex;
-     flex-direction: row
-     display: inline;;
+header {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    display: inline;
 }
+
 .logo {
-  height: 150px;
+    height: 150px;
 }
 
 nav {
@@ -58,9 +59,9 @@ nav {
     align-items: center;
 }
 
-nav li{
- display: inline;
- margin: 0 0 0 15px;
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
 }
 
 nav a {
@@ -71,11 +72,11 @@ nav a {
     text-decoration: none;
 }
 
+.container {
+    width: 940px;
+    margin: auto;
+}
 
-
-
-
-
-
-
-
+header div .container {
+    display: flex;
+}
