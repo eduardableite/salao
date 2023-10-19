@@ -38,7 +38,7 @@ ul {
 }
 
 .imagembenefecios {
-    width: 50%;
+    width: 40%;
     float: right;
 }
 
@@ -79,4 +79,8 @@ nav a {
 
 header div.container {
     display: flex;
+}
+
+.principal img {
+    width: 100%;
 }
