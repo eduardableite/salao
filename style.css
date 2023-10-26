@@ -31,12 +31,6 @@ em strong {
     font-size: 20px;
 }
 
-ul {
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 15%;
-}
-
 .imagembenefecios {
     width: 40%;
     float: right;
@@ -83,4 +77,46 @@ header div.container {
 
 .principal img {
     width: 100%;
+}
+
+.produtos {
+    margin-top: 50px;
+    padding: 0;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 28%;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.produtos h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.produto-descricao {
+    font-size: 18px;
+}
+
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.produto li:hover {
+    border: 2px solid rgb(0, 89, 255);
+}
+
+header ul li a:hover {
+    color: darkviolet;
+}
+
+.produtos li img {
+    max-width: 25px;
 }
