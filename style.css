@@ -118,5 +118,24 @@ header ul li a:hover {
 }
 
 .produtos li img {
-    max-width: 25px;
+    max-width: 250px;
 }
+
+footer{
+    text-align: center;
+    padding: 40px 0;
+    background:red;
+    margin-top: 50px;
+}
+
+copyright {
+color:azure;
+font-size: 13px;
+margin: 20px 0 0;
+}
+
+
+
+
+
+
