@@ -121,21 +121,32 @@ header ul li a:hover {
     max-width: 250px;
 }
 
-footer{
+footer {
     text-align: center;
     padding: 40px 0;
-    background:red;
+    background: red;
     margin-top: 50px;
 }
 
 copyright {
-color:azure;
-font-size: 13px;
-margin: 20px 0 0;
+    color: azure;
+    font-size: 13px;
+    margin: 20px 0 0;
 }
 
+form {
+    margin: 40px 0;
+}
 
+form label {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
 
-
-
-
+form input {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50px;
+}
